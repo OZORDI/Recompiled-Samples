@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/thirdparty/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/thirdparty/disasm/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/thirdparty/fmt/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/thirdparty/tomlplusplus/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/thirdparty/xxHash/cmake_unofficial/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/XenonAnalyse/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/XenonRecomp/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/XenonUtils/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_RedDead/build/XenonTests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

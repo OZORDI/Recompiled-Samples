@@ -1,0 +1,97 @@
+# GTA IV Static Recompilation - XeniaRT Build
+# Usage: make -f Makefile.xeniart
+
+CXX = clang++
+CXXFLAGS = -std=c++17 -O2 -g -Wall -Wno-unused-parameter
+CXXFLAGS += -I../../xeniart/include
+CXXFLAGS += -I../../xeniart/src
+CXXFLAGS += -I../..
+CXXFLAGS += -I../../third_party/fmt/include
+CXXFLAGS += -I../../third_party/xxhash
+CXXFLAGS += -Ithirdparty/simde
+
+# Apple Silicon specific
+CXXFLAGS += -arch arm64
+
+# XeniaRT library
+XENIART_LIB = ../../xeniart/build/libxeniart.a
+
+# Link flags for macOS
+LDFLAGS = -lpthread -framework CoreFoundation -framework Security
+
+# Source files
+# kernel_bridge_xeniart.cpp provides __imp__ functions using local PPCContext
+# that call into xeniart's kernel via xeniart_call_kernel()
+MAIN_SRC = main_xeniart.cpp
+RECOMP_SRCS = $(wildcard ppc_recomp.*.cpp)
+MAPPING_SRC = ppc_func_mapping.cpp
+HOST_STUBS_SRC = host_stubs.cpp
+THIRDPARTY_STUBS_SRC = thirdparty_stubs.cpp
+KERNEL_BRIDGE_SRC = kernel_bridge_xeniart.cpp
+
+# Object files
+MAIN_OBJ = main_xeniart.o
+RECOMP_OBJS = $(RECOMP_SRCS:.cpp=.o)
+MAPPING_OBJ = ppc_func_mapping.o
+HOST_STUBS_OBJ = host_stubs.o
+THIRDPARTY_STUBS_OBJ = thirdparty_stubs.o
+KERNEL_BRIDGE_OBJ = kernel_bridge_xeniart.o
+
+# Output
+TARGET = gta4_xeniart
+
+# Default game path
+GAME_PATH = /Users/Ozordi/Downloads/xenia/RAGE\ Games/extracted/gta_iv
+
+.PHONY: all clean run rebuild
+
+all: $(TARGET)
+
+$(TARGET): $(MAIN_OBJ) $(MAPPING_OBJ) $(HOST_STUBS_OBJ) $(THIRDPARTY_STUBS_OBJ) $(KERNEL_BRIDGE_OBJ) $(RECOMP_OBJS) $(XENIART_LIB)
+	@echo "Linking $@..."
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+$(MAIN_OBJ): $(MAIN_SRC)
+	@echo "Compiling $<..."
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+$(MAPPING_OBJ): $(MAPPING_SRC)
+	@echo "Compiling $<..."
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+$(HOST_STUBS_OBJ): $(HOST_STUBS_SRC)
+	@echo "Compiling $<..."
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+$(THIRDPARTY_STUBS_OBJ): $(THIRDPARTY_STUBS_SRC)
+	@echo "Compiling $<..."
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+$(KERNEL_BRIDGE_OBJ): $(KERNEL_BRIDGE_SRC) ppc_context.h ppc_config.h
+	@echo "Compiling $<..."
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+%.o: %.cpp ppc_context.h ppc_recomp_shared.h
+	@echo "Compiling $<..."
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+$(XENIART_LIB):
+	@echo "Building XeniaRT..."
+	cd ../../xeniart && mkdir -p build && cd build && cmake .. && cmake --build .
+
+clean:
+	rm -f $(MAIN_OBJ) $(HOST_STUBS_OBJ) $(THIRDPARTY_STUBS_OBJ) $(KERNEL_BRIDGE_OBJ) $(TARGET)
+
+clean-all:
+	rm -f *.o $(TARGET)
+
+rebuild: clean all
+
+run: $(TARGET)
+	@echo "Running GTA IV..."
+	./$(TARGET) $(GAME_PATH)
+
+# Quick build - only recompile main/host_stubs/thirdparty_stubs/kernel_bridge and link
+quick: $(MAIN_OBJ) $(HOST_STUBS_OBJ) $(THIRDPARTY_STUBS_OBJ) $(KERNEL_BRIDGE_OBJ)
+	@echo "Quick linking..."
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(MAIN_OBJ) $(HOST_STUBS_OBJ) $(THIRDPARTY_STUBS_OBJ) $(KERNEL_BRIDGE_OBJ) $(MAPPING_OBJ) $(RECOMP_OBJS) $(XENIART_LIB) $(LDFLAGS)

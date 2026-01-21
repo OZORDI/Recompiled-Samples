@@ -1,0 +1,30 @@
+# Midnight Club LA Xbox 360 Recompilation Config
+# Entry Point: 0x82132498
+# Functions: 19,987
+
+[main]
+file_path = "../RAGE/games/midnight_club/default.xex"
+out_directory_path = "./ppc"
+switch_table_file_path = "./mcla_switch_tables.toml"
+
+skip_lr = false
+skip_msr = false
+ctr_as_local = false
+xer_as_local = false
+reserved_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
+
+restgprlr_14_address = 0x82497180
+savegprlr_14_address = 0x82497130
+restfpr_14_address = 0x8249995C
+savefpr_14_address = 0x82499910
+restvmx_14_address = 0x8249B4C8
+savevmx_14_address = 0x8249B230
+restvmx_64_address = 0x8249B55C
+savevmx_64_address = 0x8249B2C4
+
+invalid_instructions = [
+    { data = 0x00000000, size = 4 },
+]

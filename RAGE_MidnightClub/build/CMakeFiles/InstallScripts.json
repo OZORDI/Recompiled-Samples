@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/thirdparty/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/thirdparty/disasm/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/thirdparty/fmt/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/thirdparty/tomlplusplus/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/thirdparty/xxHash/cmake_unofficial/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/XenonAnalyse/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/XenonRecomp/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/XenonUtils/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_MidnightClub/build/XenonTests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1608 @@
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o main.o main.cpp
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_func_mapping.o ppc_func_mapping.cpp
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.0.o ppc_recomp.0.cpp
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.1.o ppc_recomp.1.cpp
+In file included from ppc_func_mapping.cpp:1:
+In file included from ./ppc_recomp_shared.hIn file included from :ppc_recomp.1.cpp4:
+:1./ppc_context.h:
+:In file included from 277./ppc_recomp_shared.h::534::
+ warning: ./ppc_context.h:value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]277
+:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |       277  |       _ _ a s m ____ a_s_mv_o_l a_t_ivloel_a_t(i"lmeIn file included from ppc_recomp.0.cpp_:_1(:
+"In file included from m./ppc_recomp_shared.hs:r4 :
+f./ppc_context.hp:c277r:,53 :s warning: rvalue size does not match register size specified by the constraint and modifier [-Wasm-operand-widths] 
+fpcr, %0" : : "r"(csr%  )277) | ; 
+        |                                                      ^    0
+"__asm__ __volatile__("msr : : "r "f(pccr, s./ppc_context.h:r277):)41;:
+       note: %use constraint modifier "w"0
+" :|                                                      ^:
+ "r"(  c277s | r ) ) ; 
+        |                                                      ^ __asm__
+ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277./ppc_context.h | : 277 : 41 :   note:  use constraint modifier "w" 
+__asm__   __volatile__(277"ms | r   f p cr, %    __asm__0 " : : "r_"_volat(icsr));
+      |                                         ^~
+      |                                         %w0
+le__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from main.cpp:11:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.10.o ppc_recomp.10.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.100.o ppc_recomp.100.cpp
+In file included from ppc_recomp.10.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.100.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.101.o ppc_recomp.101.cpp
+In file included from ppc_recomp.101.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.102.o ppc_recomp.102.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.103.o ppc_recomp.103.cpp
+In file included from ppc_recomp.102.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.103.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.104.o ppc_recomp.104.cpp
+In file included from ppc_recomp.104.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.105.o ppc_recomp.105.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.106.o ppc_recomp.106.cpp
+In file included from ppc_recomp.105.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.106.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.107.o ppc_recomp.107.cpp
+In file included from ppc_recomp.107.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.108.o ppc_recomp.108.cpp
+In file included from ppc_recomp.108.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.109.o ppc_recomp.109.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.11.o ppc_recomp.11.cpp
+In file included from ppc_recomp.109.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.11.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.110.o ppc_recomp.110.cpp
+In file included from ppc_recomp.110.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.111.o ppc_recomp.111.cpp
+In file included from ppc_recomp.111.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.112.o ppc_recomp.112.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.113.o ppc_recomp.113.cpp
+In file included from ppc_recomp.112.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.113.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.114.o ppc_recomp.114.cpp
+In file included from ppc_recomp.114.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.115.o ppc_recomp.115.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.116.o ppc_recomp.116.cpp
+In file included from ppc_recomp.115.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.116.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.117.o ppc_recomp.117.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.118.o ppc_recomp.118.cpp
+In file included from ppc_recomp.117.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.118.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.119.o ppc_recomp.119.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.12.o ppc_recomp.12.cpp
+In file included from ppc_recomp.119.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.12.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.120.o ppc_recomp.120.cpp
+In file included from ppc_recomp.120.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.121.o ppc_recomp.121.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.122.o ppc_recomp.122.cpp
+In file included from ppc_recomp.121.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.122.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.123.o ppc_recomp.123.cpp
+In file included from ppc_recomp.123.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.124.o ppc_recomp.124.cpp
+In file included from ppc_recomp.124.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.125.o ppc_recomp.125.cpp
+In file included from ppc_recomp.125.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.126.o ppc_recomp.126.cpp
+In file included from ppc_recomp.126.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.127.o ppc_recomp.127.cpp
+In file included from ppc_recomp.127.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.128.o ppc_recomp.128.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.129.o ppc_recomp.129.cpp
+In file included from ppc_recomp.128.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.13.o ppc_recomp.13.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.130.o ppc_recomp.130.cpp
+In file included from ppc_recomp.129.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.13.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.130.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.131.o ppc_recomp.131.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.132.o ppc_recomp.132.cpp
+In file included from ppc_recomp.131.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.132.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.133.o ppc_recomp.133.cpp
+In file included from ppc_recomp.133.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.134.o ppc_recomp.134.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.135.o ppc_recomp.135.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.136.o ppc_recomp.136.cpp
+In file included from ppc_recomp.134.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.135.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.136.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.137.o ppc_recomp.137.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.138.o ppc_recomp.138.cpp
+In file included from ppc_recomp.137.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.138.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.139.o ppc_recomp.139.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.14.o ppc_recomp.14.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.140.o ppc_recomp.140.cpp
+In file included from ppc_recomp.139.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.14.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.140.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.141.o ppc_recomp.141.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.142.o ppc_recomp.142.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.143.o ppc_recomp.143.cpp
+In file included from ppc_recomp.141.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.142.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.143.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.15.o ppc_recomp.15.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.16.o ppc_recomp.16.cpp
+In file included from ppc_recomp.15.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.17.o ppc_recomp.17.cpp
+In file included from ppc_recomp.16.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.17.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.18.o ppc_recomp.18.cpp
+In file included from ppc_recomp.18.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.19.o ppc_recomp.19.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.2.o ppc_recomp.2.cpp
+In file included from ppc_recomp.19.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.2.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.20.o ppc_recomp.20.cpp
+In file included from ppc_recomp.20.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.21.o ppc_recomp.21.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.22.o ppc_recomp.22.cpp
+In file included from ppc_recomp.21.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.22.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.23.o ppc_recomp.23.cpp
+In file included from ppc_recomp.23.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.24.o ppc_recomp.24.cpp
+In file included from ppc_recomp.24.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.25.o ppc_recomp.25.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.26.o ppc_recomp.26.cpp
+In file included from ppc_recomp.25.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.26.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.27.o ppc_recomp.27.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.28.o ppc_recomp.28.cpp
+In file included from ppc_recomp.27.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.28.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.29.o ppc_recomp.29.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.3.o ppc_recomp.3.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.30.o ppc_recomp.30.cpp
+In file included from ppc_recomp.29.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.3.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.30.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.31.o ppc_recomp.31.cpp
+In file included from ppc_recomp.31.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.32.o ppc_recomp.32.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.33.o ppc_recomp.33.cpp
+In file included from ppc_recomp.32.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.34.o ppc_recomp.34.cpp
+In file included from ppc_recomp.33.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.34.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.35.o ppc_recomp.35.cpp
+In file included from ppc_recomp.35.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.36.o ppc_recomp.36.cpp
+In file included from ppc_recomp.36.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.37.o ppc_recomp.37.cpp
+In file included from ppc_recomp.37.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.38.o ppc_recomp.38.cpp
+In file included from ppc_recomp.38.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.39.o ppc_recomp.39.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.4.o ppc_recomp.4.cpp
+In file included from ppc_recomp.39.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.4.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.40.o ppc_recomp.40.cpp
+In file included from ppc_recomp.40.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.41.o ppc_recomp.41.cpp
+In file included from ppc_recomp.41.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.42.o ppc_recomp.42.cpp
+In file included from ppc_recomp.42.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.43.o ppc_recomp.43.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.44.o ppc_recomp.44.cpp
+In file included from ppc_recomp.43.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.44.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.45.o ppc_recomp.45.cpp
+In file included from ppc_recomp.45.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.46.o ppc_recomp.46.cpp
+In file included from ppc_recomp.46.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.47.o ppc_recomp.47.cpp
+In file included from ppc_recomp.47.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.48.o ppc_recomp.48.cpp
+In file included from ppc_recomp.48.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.49.o ppc_recomp.49.cpp
+In file included from ppc_recomp.49.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.5.o ppc_recomp.5.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.50.o ppc_recomp.50.cpp
+In file included from ppc_recomp.5.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.50.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.51.o ppc_recomp.51.cpp
+In file included from ppc_recomp.51.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.52.o ppc_recomp.52.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.53.o ppc_recomp.53.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.54.o ppc_recomp.54.cpp
+In file included from ppc_recomp.52.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.53.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.54.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.55.o ppc_recomp.55.cpp
+In file included from ppc_recomp.55.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.56.o ppc_recomp.56.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.57.o ppc_recomp.57.cpp
+In file included from ppc_recomp.56.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.57.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.58.o ppc_recomp.58.cpp
+In file included from ppc_recomp.58.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.59.o ppc_recomp.59.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.6.o ppc_recomp.6.cpp
+In file included from ppc_recomp.59.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.60.o ppc_recomp.60.cpp
+In file included from ppc_recomp.6.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.60.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.61.o ppc_recomp.61.cpp
+In file included from ppc_recomp.61.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.62.o ppc_recomp.62.cpp
+In file included from ppc_recomp.62.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.63.o ppc_recomp.63.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.64.o ppc_recomp.64.cpp
+In file included from ppc_recomp.63.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.65.o ppc_recomp.65.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.66.o ppc_recomp.66.cpp
+In file included from ppc_recomp.64.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.65.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.66.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.67.o ppc_recomp.67.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.68.o ppc_recomp.68.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.69.o ppc_recomp.69.cpp
+In file included from ppc_recomp.67.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.68.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.69.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.7.o ppc_recomp.7.cpp
+In file included from ppc_recomp.7.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.70.o ppc_recomp.70.cpp
+In file included from ppc_recomp.70.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.71.o ppc_recomp.71.cpp
+In file included from ppc_recomp.71.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.72.o ppc_recomp.72.cpp
+In file included from ppc_recomp.72.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.73.o ppc_recomp.73.cpp
+In file included from ppc_recomp.73.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.74.o ppc_recomp.74.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.75.o ppc_recomp.75.cpp
+In file included from ppc_recomp.74.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.75.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.76.o ppc_recomp.76.cpp
+In file included from ppc_recomp.76.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.77.o ppc_recomp.77.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.78.o ppc_recomp.78.cpp
+In file included from ppc_recomp.77.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.78.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.79.o ppc_recomp.79.cpp
+In file included from ppc_recomp.79.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.8.o ppc_recomp.8.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.80.o ppc_recomp.80.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.81.o ppc_recomp.81.cpp
+In file included from ppc_recomp.8.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.80.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.81.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.82.o ppc_recomp.82.cpp
+In file included from ppc_recomp.82.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.83.o ppc_recomp.83.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.84.o ppc_recomp.84.cpp
+In file included from ppc_recomp.83.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.84.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.85.o ppc_recomp.85.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.86.o ppc_recomp.86.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.87.o ppc_recomp.87.cpp
+In file included from ppc_recomp.85.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.88.o ppc_recomp.88.cpp
+In file included from ppc_recomp.86.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.87.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.88.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.89.o ppc_recomp.89.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.9.o ppc_recomp.9.cpp
+In file included from ppc_recomp.89.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.9.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.90.o ppc_recomp.90.cpp
+In file included from ppc_recomp.90.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.91.o ppc_recomp.91.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.92.o ppc_recomp.92.cpp
+In file included from ppc_recomp.91.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.93.o ppc_recomp.93.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.94.o ppc_recomp.94.cpp
+In file included from ppc_recomp.92.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.93.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.94.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.95.o ppc_recomp.95.cpp
+In file included from ppc_recomp.95.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.96.o ppc_recomp.96.cpp
+In file included from ppc_recomp.96.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.97.o ppc_recomp.97.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.98.o ppc_recomp.98.cpp
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -c -o ppc_recomp.99.o ppc_recomp.99.cpp
+In file included from ppc_recomp.97.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.98.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+In file included from ppc_recomp.99.cpp:1:
+In file included from ./ppc_recomp_shared.h:4:
+./ppc_context.h:277:53: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                                     ^
+./ppc_context.h:277:41: note: use constraint modifier "w"
+  277 |         __asm__ __volatile__("msr fpcr, %0" : : "r"(csr));
+      |                                         ^~
+      |                                         %w0
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+clang++ -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function -Ithirdparty/simde -I../rage_runtime -I../rage_runtime/kernel -mmacosx-version-min=10.15 -o gta4_recomp main.o kernel_impl.o ppc_func_mapping.o ppc_recomp.0.o ppc_recomp.1.o ppc_recomp.10.o ppc_recomp.100.o ppc_recomp.101.o ppc_recomp.102.o ppc_recomp.103.o ppc_recomp.104.o ppc_recomp.105.o ppc_recomp.106.o ppc_recomp.107.o ppc_recomp.108.o ppc_recomp.109.o ppc_recomp.11.o ppc_recomp.110.o ppc_recomp.111.o ppc_recomp.112.o ppc_recomp.113.o ppc_recomp.114.o ppc_recomp.115.o ppc_recomp.116.o ppc_recomp.117.o ppc_recomp.118.o ppc_recomp.119.o ppc_recomp.12.o ppc_recomp.120.o ppc_recomp.121.o ppc_recomp.122.o ppc_recomp.123.o ppc_recomp.124.o ppc_recomp.125.o ppc_recomp.126.o ppc_recomp.127.o ppc_recomp.128.o ppc_recomp.129.o ppc_recomp.13.o ppc_recomp.130.o ppc_recomp.131.o ppc_recomp.132.o ppc_recomp.133.o ppc_recomp.134.o ppc_recomp.135.o ppc_recomp.136.o ppc_recomp.137.o ppc_recomp.138.o ppc_recomp.139.o ppc_recomp.14.o ppc_recomp.140.o ppc_recomp.141.o ppc_recomp.142.o ppc_recomp.143.o ppc_recomp.15.o ppc_recomp.16.o ppc_recomp.17.o ppc_recomp.18.o ppc_recomp.19.o ppc_recomp.2.o ppc_recomp.20.o ppc_recomp.21.o ppc_recomp.22.o ppc_recomp.23.o ppc_recomp.24.o ppc_recomp.25.o ppc_recomp.26.o ppc_recomp.27.o ppc_recomp.28.o ppc_recomp.29.o ppc_recomp.3.o ppc_recomp.30.o ppc_recomp.31.o ppc_recomp.32.o ppc_recomp.33.o ppc_recomp.34.o ppc_recomp.35.o ppc_recomp.36.o ppc_recomp.37.o ppc_recomp.38.o ppc_recomp.39.o ppc_recomp.4.o ppc_recomp.40.o ppc_recomp.41.o ppc_recomp.42.o ppc_recomp.43.o ppc_recomp.44.o ppc_recomp.45.o ppc_recomp.46.o ppc_recomp.47.o ppc_recomp.48.o ppc_recomp.49.o ppc_recomp.5.o ppc_recomp.50.o ppc_recomp.51.o ppc_recomp.52.o ppc_recomp.53.o ppc_recomp.54.o ppc_recomp.55.o ppc_recomp.56.o ppc_recomp.57.o ppc_recomp.58.o ppc_recomp.59.o ppc_recomp.6.o ppc_recomp.60.o ppc_recomp.61.o ppc_recomp.62.o ppc_recomp.63.o ppc_recomp.64.o ppc_recomp.65.o ppc_recomp.66.o ppc_recomp.67.o ppc_recomp.68.o ppc_recomp.69.o ppc_recomp.7.o ppc_recomp.70.o ppc_recomp.71.o ppc_recomp.72.o ppc_recomp.73.o ppc_recomp.74.o ppc_recomp.75.o ppc_recomp.76.o ppc_recomp.77.o ppc_recomp.78.o ppc_recomp.79.o ppc_recomp.8.o ppc_recomp.80.o ppc_recomp.81.o ppc_recomp.82.o ppc_recomp.83.o ppc_recomp.84.o ppc_recomp.85.o ppc_recomp.86.o ppc_recomp.87.o ppc_recomp.88.o ppc_recomp.89.o ppc_recomp.9.o ppc_recomp.90.o ppc_recomp.91.o ppc_recomp.92.o ppc_recomp.93.o ppc_recomp.94.o ppc_recomp.95.o ppc_recomp.96.o ppc_recomp.97.o ppc_recomp.98.o ppc_recomp.99.o -lpthread
+Built gta4_recomp with stub kernel
+Run with: ./gta4_recomp

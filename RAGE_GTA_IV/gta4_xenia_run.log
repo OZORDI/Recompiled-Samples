@@ -1,0 +1,1 @@
+Assertion failed: (export_entry->ordinal < xam_exports.size()), function RegisterExport_xam, file xam_module.cc, line 40.

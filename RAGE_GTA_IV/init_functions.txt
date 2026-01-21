@@ -1,0 +1,7 @@
+# GTA IV Initialization Functions
+# Called before entry point to populate TLS and global state
+# Format: ADDRESS  # comment
+
+# NOTE: Using _xstart (0x829A0860) as entry point now
+# _xstart runs CRT initialization including global constructors
+# No manual init functions needed

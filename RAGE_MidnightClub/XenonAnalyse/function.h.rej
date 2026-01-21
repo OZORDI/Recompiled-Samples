@@ -1,0 +1,14 @@
+@@ -53,6 +53,13 @@
+     // Add a block and update the hash map
+     size_t AddBlock(size_t blockBase, size_t blockSize, size_t projectedSize = static_cast<size_t>(-1));
+     
++    // Clear blocks and blockMap to free memory after analysis (only base/size needed for recompilation)
++    void ClearBlocks() {
++        blocks.clear();
++        blocks.shrink_to_fit();
++        blockMap.clear();
++    }
++    
+     static Function Analyze(const void* code, size_t size, size_t base);
+ };
+ 

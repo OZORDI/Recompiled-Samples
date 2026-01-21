@@ -1,0 +1,48 @@
+# RAGE Engine Static Recompilation - Makefile Template
+# Copy to your game directory and adjust GAME_NAME and paths
+
+GAME_NAME = rage_game
+
+CXX = clang++
+CXXFLAGS = -std=c++17 -O2 -g -Wall -Wno-unused-variable -Wno-unused-function
+
+# SIMDE path (adjust based on your game's location)
+XENIA_ROOT = ../..
+SIMDE_PATH = $(XENIA_ROOT)/third_party/simde/simde
+CXXFLAGS += -I$(SIMDE_PATH) -I../rage_runtime
+
+# Platform detection
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Darwin)
+    LDFLAGS = -lpthread
+    CXXFLAGS += -mmacosx-version-min=10.15
+else ifeq ($(UNAME_S),Linux)
+    LDFLAGS = -lpthread -lrt
+else
+    LDFLAGS = -lws2_32
+endif
+
+# Source files - customize for your game
+SOURCES = main.cpp kernel_impl.cpp ppc_func_mapping.cpp
+RECOMP_SOURCES := $(wildcard ppc_recomp.*.cpp)
+SOURCES += $(RECOMP_SOURCES)
+
+OBJECTS = $(SOURCES:.cpp=.o)
+TARGET = $(GAME_NAME)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+	@echo "Built $(TARGET)"
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+clean:
+	rm -f $(OBJECTS) $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+.PHONY: all clean run

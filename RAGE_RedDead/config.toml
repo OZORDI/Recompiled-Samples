@@ -1,0 +1,30 @@
+# Red Dead Redemption Xbox 360 Recompilation Config
+# Entry Point: 0x823DA318
+# Functions: 45,943
+
+[main]
+file_path = "../RAGE/games/red_dead/default.xex"
+out_directory_path = "./ppc"
+switch_table_file_path = "./rdr_switch_tables.toml"
+
+skip_lr = false
+skip_msr = false
+ctr_as_local = false
+xer_as_local = false
+reserved_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
+
+restgprlr_14_address = 0x82BB84E0
+savegprlr_14_address = 0x82BB8490
+restfpr_14_address = 0x82BB905C
+savefpr_14_address = 0x82BB9010
+restvmx_14_address = 0x82BB9BC8
+savevmx_14_address = 0x82BB9930
+restvmx_64_address = 0x82BB9C5C
+savevmx_64_address = 0x82BB99C4
+
+invalid_instructions = [
+    { data = 0x00000000, size = 4 },
+]

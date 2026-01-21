@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/thirdparty/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/thirdparty/disasm/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/thirdparty/fmt/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/thirdparty/tomlplusplus/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/thirdparty/xxHash/cmake_unofficial/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/XenonAnalyse/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/XenonRecomp/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/XenonUtils/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_GTA_V/build/XenonTests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

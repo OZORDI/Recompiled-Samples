@@ -1,0 +1,13 @@
+^D=== Rockstar Table Tennis - Static Recompilation ===
+Image: 0x82000000 - 0x82770000
+Code:  0x820C0000 - 0x825AC1BC
+[RAGE] Memory: 0x300000000 (4GB)
+[RAGE] Registered 11763 functions
+[RAGE] Lookup table: 11763 entries
+Initializing real kernel...
+[KERNEL] Initialized with memory base 0x300000000
+Entry: 0x820C0038
+=== Starting ===
+=== Done ===
+[KERNEL] Shutdown complete
+[RAGE] Stats: calls=1 hits=1 miss=0

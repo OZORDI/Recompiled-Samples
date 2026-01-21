@@ -1,0 +1,33 @@
+# GTA V Xbox 360 Recompilation Config
+# Entry Point: 0x83639888
+# Functions: 64,630
+
+[main]
+file_path = "../RAGE/games/gta_v/default.xex"
+out_directory_path = "./ppc"
+switch_table_file_path = "./gtav_switch_tables.toml"
+
+# Optimizations - disabled for initial build
+skip_lr = false
+skip_msr = false
+ctr_as_local = false
+xer_as_local = false
+reserved_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
+
+# Register save/restore function addresses (found via pattern search)
+restgprlr_14_address = 0x83622940
+savegprlr_14_address = 0x836228F0
+restfpr_14_address = 0x83622D6C
+savefpr_14_address = 0x83622D20
+restvmx_14_address = 0x83623128
+savevmx_14_address = 0x83622E90
+restvmx_64_address = 0x836231BC
+savevmx_64_address = 0x83622F24
+
+# Invalid instruction patterns to skip
+invalid_instructions = [
+    { data = 0x00000000, size = 4 },
+]

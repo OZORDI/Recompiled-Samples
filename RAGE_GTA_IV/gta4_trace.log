@@ -1,0 +1,96 @@
+[XENIART] MapFileView mmap failed: Cannot allocate memory
+[XENIART] MapFileView mmap failed: Permission denied
+[GTA4] ==============================================
+[GTA4]   GTA IV Static Recompilation (XeniaRT)
+[GTA4]   Using Xenia's Full Kernel Implementation
+[GTA4] ==============================================
+[GTA4] Game Path: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] Image: 0x82000000 - 0x831F0000
+[GTA4] Code:  0x82120000 - 0x82A13D5C
+[GTA4] Initializing Xenia subsystems...
+[XENIART] Starting Emulator::Initialize...\n[XENIART] Creating memory...\n[XENIART] Initializing memory...\n[XENIART] MapFileView mmap failed: base=0x100000000 length=1073741824 access=3
+[XENIART] MapFileView mmap failed: base=0x200000000 length=1073741824 access=3
+[XENIART] Memory initialized OK\n[XENIART] Creating export resolver...\n[XENIART] Creating processor...\n[XENIART] Setting up processor...\n[XENIART] Processor initialized OK\n[XENIART] Creating VFS...\n[XENIART] Mounting content root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv\n[XENIART] Mounting cache root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv/cache\n[XENIART] initializing kernel state...\n[XENIART] Loading Xboxkrnl...\n[XENIART] XModule ctor start\n[XENIART] SystemHeapAlloc success: 00010000 (size=100)\n[XENIART] hmodule_ptr allocated at 00010000\n[XENIART] KernelModule ctor start for xe:\xboxkrnl.exe\n[XENIART] KernelModule allocating trampoline...
+[XENIART] Trampoline allocated at 80040000. Creating module...
+[XENIART] Adding trampoline module to processor...
+[XENIART] Trampoline module added.
+[XENIART] Calling OnLoad...
+[XENIART] KernelModule ctor finished.
+[XENIART] XboxkrnlModule ctor start\n[XENIART] ExportTable registered\n[XENIART] Registering export group Crypt...\n[XENIART] Registering export group Debug...\n[XENIART] Registering export group Error...\n[XENIART] Registering export group Hal...\n[XENIART] Registering export group Hid...\n[XENIART] Registering export group Io...\n[XENIART] Registering export group IoInfo...\n[XENIART] Registering export group Memory...\n[XENIART] Registering export group Misc...\n[XENIART] Registering export group Module...\n[XENIART] Registering export group Ob...\n[XENIART] Registering export group Rtl...\n[XENIART] Registering export group String...\n[XENIART] Registering export group Threading...\n[XENIART] Registering export group Usbcam...\n[XENIART] Registering export group Video...\n[XENIART] SystemHeapAlloc success: FFCAE000 (size=4)\n[XENIART] SystemHeapAlloc success: FFCAD000 (size=4)\n[XENIART] SystemHeapAlloc success: FFCAC000 (size=4)\n[XENIART] SystemHeapAlloc success: FFCAB000 (size=28)\n[XENIART] Registering export group XConfig...\n[XENIART] Export groups registered\n[XENIART] SystemHeapAlloc success: 00011000 (size=4)\n[XENIART] SystemHeapAlloc success: 00012000 (size=4)\n[XENIART] SystemHeapAlloc success: 00013000 (size=16)\n[XENIART] SystemHeapAlloc success: 00014000 (size=4)\n[XENIART] SystemHeapAlloc success: 00015000 (size=4)\n[XENIART] SystemHeapAlloc success: 00016000 (size=256)\n[XENIART] SystemHeapAlloc success: 00017000 (size=1024)\n[XENIART] SystemHeapAlloc success: 00018000 (size=8)\n[XENIART] SystemHeapAlloc success: 00019000 (size=24)\n[XENIART] XboxkrnlModule ctor done\n[XENIART] Loading Xam...\n[XENIART] XModule ctor start\n[XENIART] SystemHeapAlloc success: 0001A000 (size=100)\n[XENIART] hmodule_ptr allocated at 0001A000\n[XENIART] KernelModule ctor start for xe:\xam.xex\n[XENIART] KernelModule allocating trampoline...
+[XENIART] Trampoline allocated at 80050000. Creating module...
+[XENIART] Adding trampoline module to processor...
+[XENIART] Trampoline module added.
+[XENIART] Calling OnLoad...
+[XENIART] KernelModule ctor finished.
+[GTA4] Memory base: 0x400000000 (Xenia xe::Memory)
+[GTA4] KernelState: 0x1075298d0
+[GTA4] Registered 36849 recompiled functions
+[GTA4] Static dispatch: 36848 functions registered
+[GTA4] Lookup table: 36849 entries
+[GTA4] Entry point: 0x82120000
+[GTA4] ==============================================
+[GTA4]   Starting GTA IV...
+[GTA4]   VFS: game: -> /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] ==============================================
+[XENIART] SystemHeapAlloc success: 0001B000 (size=2760)\n[XENIART] SystemHeapAlloc success: 0001C000 (size=28)\n[XENIART] SystemHeapAlloc success: 0001D000 (size=64)\n[XENIART] SystemHeapAlloc success: 0001E000 (size=4096)\n[XENIART] SystemHeapAlloc success: 0001F000 (size=728)\n[XENIART] Creating ThreadState...
+[XENIART] ThreadState created. pcr_address_=0001F000, r13=000000000001F000
+[XENIART] Calling InitializeGuestObject...
+[XENIART] InitializeGuestObject returned.
+[XENIART] XThread::Create - Retaining handle
+[XENIART] XThread::Create - Creating host thread...
+[XENIART] XThread::Create - Host thread created. Object=0x739086520
+[XENIART] Native thread started! ID=F800000C
+[XENIART] XThread::Create - Notifying processor...
+[XENIART] Resuming thread...
+[GTA4] Main thread created successfully - game is now running
+[XENIART] calling Execute()
+[XENIART] XThread::Execute entry. THID=1 Handle=F800000C Dispatcher=0x1053fbee0
+[XENIART] XThread::Execute - Calling via static dispatch: 82120000
+[XENIART] Memory Base: 0x400000000, R1 (Stack): 0000000070050000, R13 (PCR): 000000000001F000
+[XENIART] Probing stack at 0x47004fff8
+[XENIART] Stack probe successful.
+[XENIART] sub_82120000: Entry. r13=0000000000000000
+[XENIART] sub_82120000: Store r12 done
+[XENIART] sub_82120000: Store r31 done
+[XENIART] sub_82120000: Stack adjusted
+[XENIART] sub_82120000: Calling sub_8218C600
+[XENIART] sub_8218C600: Entry. r13=0000000000000000
+[XENIART] sub_8218C600: Calling __savegprlr_28
+[XENIART] sub_8218C600: __savegprlr_28 returned
+[XENIART] sub_8218C600: Stack adjusted
+[XENIART] sub_8218C600: Calling sub_829A0A48
+[XENIART] sub_8218C600: Returned from sub_829A0A48
+[XENIART] sub_8218C600: About to store U8 at r9=83120000 + 22426
+[XENIART] sub_8218C600: Target address = 8312579A
+[XENIART] sub_8218C600: Store U8 done
+[XENIART] sub_8218C600: About to store U32 at 82A80000 + 16452
+[XENIART] sub_8218C600: Store U32 (1) done
+[XENIART] sub_8218C600: Store U32 (2) done
+[XENIART] sub_8218C600: Store U32 (3) done
+[XENIART] sub_8218C600: Store U32 (4) done
+[XENIART] sub_827DF248: Entry. r13=0000000000000000
+[XENIART] sub_827DF248: Calling __savegprlr_26
+[XENIART] sub_827DF248: __savegprlr_26 returned
+[XENIART] sub_827DF248: Stack adjusted
+[XENIART] sub_827DF248: About to store U32 at 830F5864 - 48 = 830F5834
+[XENIART] sub_827DF248: Store U32 done
+[XENIART] sub_827DF248: About to store U32 (2) at 830F5864 - 44
+[XENIART] sub_827DF248: Store U32 (2) done
+[XENIART] sub_827DF248: Calling sub_8218BE28
+[XENIART] sub_8218BE28: Entry. r13=0000000000000000
+
+[CRASH] Signal 10: SIGBUS (Bus Error) at entry point!
+[CRASH] The entry function crashed immediately.
+
+==============================================
+  Host Layer Statistics
+==============================================
+Runtime: 0 seconds
+Total calls: 0
+VdSwap (frames): 0
+Audio frames: 0
+Input polls: 0
+
+Function call counts:
+==============================================
+

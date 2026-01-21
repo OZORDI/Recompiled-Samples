@@ -1,0 +1,58 @@
+[XENIART] MapFileView mmap failed: Cannot allocate memory
+[XENIART] MapFileView mmap failed: Permission denied
+[GTA4] ==============================================
+[GTA4]   GTA IV Static Recompilation (XeniaRT)
+[GTA4]   Using Xenia's Full Kernel Implementation
+[GTA4] ==============================================
+[GTA4] Game Path: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] Image: 0x82000000 - 0x831F0000
+[GTA4] Code:  0x82120000 - 0x82A13D5C
+[GTA4] Initializing Xenia subsystems...
+[XENIART] Starting Emulator::Initialize...\n[XENIART] Creating memory...\n[XENIART] Initializing memory...\n[XENIART] MapFileView mmap failed: base=0x100000000 length=1073741824 access=3
+[XENIART] MapFileView mmap failed: base=0x200000000 length=1073741824 access=3
+[XENIART] AllocFixed base=0x400000000 len=65536 aligned_base=400000000 aligned_len=65536 prot=0
+[XENIART] AllocFixed base=0x500000000 len=16777216 aligned_base=500000000 aligned_len=16777216 prot=3
+[XENIART] AllocFixed base=0x4c0000000 len=16777216 aligned_base=4c0000000 aligned_len=16777216 prot=3
+[XENIART] Memory initialized OK\n[XENIART] Creating export resolver...\n[XENIART] Creating processor...\n[XENIART] Setting up processor...\n[XENIART] Processor initialized OK\n[XENIART] Creating VFS...\n[XENIART] Mounting content root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv\n[XENIART] Mounting cache root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv/cache\n[XENIART] initializing kernel state...\n[XENIART] Loading Xboxkrnl...\n[XENIART] XModule ctor start\n[XENIART] AllocFixed base=0x400010000 len=4096 aligned_base=400010000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00010000 (size=100)\n[XENIART] hmodule_ptr allocated at 00010000\n[XENIART] KernelModule ctor start for xe:\xboxkrnl.exe\n[XENIART] KernelModule allocating trampoline...
+[XENIART] AllocFixed base=0x480040000 len=65536 aligned_base=480040000 aligned_len=65536 prot=3
+[XENIART] Trampoline allocated at 80040000. Creating module...
+[XENIART] Adding trampoline module to processor...
+[XENIART] Trampoline module added.
+[XENIART] Calling OnLoad...
+[XENIART] KernelModule ctor finished.
+[XENIART] XboxkrnlModule ctor start\n[XENIART] ExportTable registered\n[XENIART] Registering export group Crypt...\n[XENIART] Registering export group Debug...\n[XENIART] Registering export group Error...\n[XENIART] Registering export group Hal...\n[XENIART] Registering export group Hid...\n[XENIART] Registering export group Io...\n[XENIART] Registering export group IoInfo...\n[XENIART] Registering export group Memory...\n[XENIART] Registering export group Misc...\n[XENIART] Registering export group Module...\n[XENIART] Registering export group Ob...\n[XENIART] Registering export group Rtl...\n[XENIART] Registering export group String...\n[XENIART] Registering export group Threading...\n[XENIART] Registering export group Usbcam...\n[XENIART] Registering export group Video...\n[XENIART] AllocFixed base=0x51fcaf000 len=4096 aligned_base=51fcac000 aligned_len=16384 prot=3
+[XENIART] AllocFixed base=0x4ffcaf000 len=4096 aligned_base=4ffcac000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: FFCAE000 (size=4)\n[XENIART] AllocFixed base=0x51fcae000 len=4096 aligned_base=51fcac000 aligned_len=16384 prot=3
+[XENIART] AllocFixed base=0x4ffcae000 len=4096 aligned_base=4ffcac000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: FFCAD000 (size=4)\n[XENIART] AllocFixed base=0x51fcad000 len=4096 aligned_base=51fcac000 aligned_len=16384 prot=3
+[XENIART] AllocFixed base=0x4ffcad000 len=4096 aligned_base=4ffcac000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: FFCAC000 (size=4)\n[XENIART] AllocFixed base=0x51fcac000 len=4096 aligned_base=51fcac000 aligned_len=16384 prot=3
+[XENIART] AllocFixed base=0x4ffcac000 len=4096 aligned_base=4ffcac000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: FFCAB000 (size=28)\n[XENIART] Registering export group XConfig...\n[XENIART] Export groups registered\n[XENIART] AllocFixed base=0x400011000 len=4096 aligned_base=400010000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00011000 (size=4)\n[XENIART] AllocFixed base=0x400012000 len=4096 aligned_base=400010000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00012000 (size=4)\n[XENIART] AllocFixed base=0x400013000 len=4096 aligned_base=400010000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00013000 (size=16)\n[XENIART] AllocFixed base=0x400014000 len=4096 aligned_base=400014000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00014000 (size=4)\n[XENIART] AllocFixed base=0x400015000 len=4096 aligned_base=400014000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00015000 (size=4)\n[XENIART] AllocFixed base=0x400016000 len=4096 aligned_base=400014000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00016000 (size=256)\n[XENIART] AllocFixed base=0x400017000 len=4096 aligned_base=400014000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00017000 (size=1024)\n[XENIART] AllocFixed base=0x400018000 len=4096 aligned_base=400018000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00018000 (size=8)\n[XENIART] AllocFixed base=0x400019000 len=4096 aligned_base=400018000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00019000 (size=24)\n[XENIART] XboxkrnlModule ctor done\n[XENIART] Loading Xam...\n[XENIART] XModule ctor start\n[XENIART] AllocFixed base=0x40001a000 len=4096 aligned_base=400018000 aligned_len=16384 prot=3
+[XENIART] SystemHeapAlloc success: 0001A000 (size=100)\n[XENIART] hmodule_ptr allocated at 0001A000\n[XENIART] KernelModule ctor start for xe:\xam.xex\n[XENIART] KernelModule allocating trampoline...
+[XENIART] AllocFixed base=0x480050000 len=65536 aligned_base=480050000 aligned_len=65536 prot=3
+[XENIART] Trampoline allocated at 80050000. Creating module...
+[XENIART] Adding trampoline module to processor...
+[XENIART] Trampoline module added.
+[XENIART] Calling OnLoad...
+[XENIART] KernelModule ctor finished.
+[GTA4] Memory base: 0x400000000 (Xenia xe::Memory)
+[GTA4] KernelState: 0x109492bd0
+[GTA4] Registered 36849 recompiled functions
+[GTA4] Static dispatch: 36848 functions registered
+[GTA4] Lookup table: 36849 entries
+[GTA4] Entry point: 0x82120000
+[GTA4] ==============================================
+[GTA4]   Starting GTA IV...
+[GTA4]   VFS: game: -> /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] ==============================================

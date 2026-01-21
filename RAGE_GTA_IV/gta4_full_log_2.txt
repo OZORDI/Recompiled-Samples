@@ -1,0 +1,42 @@
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+[XENIART] MapFileView mmap failed: Invalid argument
+Assertion failed: (false), function Initialize, file memory.cc, line 154.
+[GTA4] ==============================================
+[GTA4]   GTA IV Static Recompilation (XeniaRT)
+[GTA4]   Using Xenia's Full Kernel Implementation
+[GTA4] ==============================================
+[GTA4] Game Path: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] Image: 0x82000000 - 0x831F0000
+[GTA4] Code:  0x82120000 - 0x82A13D5C
+[GTA4] Initializing Xenia subsystems...
+[XENIART] Starting Emulator::Initialize...\n[XENIART] Creating memory...\n[XENIART] Initializing memory...\n

@@ -1,0 +1,14 @@
+[XENIART] AllocFixed mprotect failed: Cannot allocate memory
+[XENIART] AllocFixed mprotect failed: Permission denied
+[GTA4] ==============================================
+[GTA4]   GTA IV Static Recompilation (XeniaRT)
+[GTA4]   Using Xenia's Full Kernel Implementation
+[GTA4] ==============================================
+[GTA4] Game Path: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] Image: 0x82000000 - 0x831F0000
+[GTA4] Code:  0x82120000 - 0x82A13D5C
+[GTA4] Initializing Xenia subsystems...
+[XENIART] Starting Emulator::Initialize...\n[XENIART] Creating memory...\n[XENIART] Initializing memory...\n[XENIART] Memory initialized OK\n[XENIART] Creating export resolver...\n[XENIART] Creating processor...\n[XENIART] Setting up processor...\n[XENIART] Processor initialized OK\n[XENIART] Creating VFS...\n[XENIART] Mounting content root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv\n[XENIART] Mounting cache root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv/cache\n[XENIART] initializing kernel state...\n[XENIART] Loading Xboxkrnl...\n[XENIART] XModule ctor start\n[XENIART] AllocFixed mprotect failed: Cannot allocate memory
+[XENIART] SystemHeapAlloc failed! size=100 align=32 phys=0 heap=0x1052b2f40 base=00000000\n[XENIART] Failed to allocate hmodule_ptr!\n[XENIART] KernelModule ctor start for xe:\xboxkrnl.exe\n[XENIART] AllocFixed mprotect failed: Permission denied
+[XENIART] XboxkrnlModule ctor start\n[XENIART] ExportTable registered\n[XENIART] Registering export group Crypt...\n[XENIART] Registering export group Debug...\n[XENIART] Registering export group Error...\n[XENIART] Registering export group Hal...\n[XENIART] Registering export group Hid...\n[XENIART] Registering export group Io...\n[XENIART] Registering export group IoInfo...\n[XENIART] Registering export group Memory...\n[XENIART] Registering export group Misc...\n[XENIART] Registering export group Module...\n[XENIART] Registering export group Ob...\n[XENIART] Registering export group Rtl...\n[XENIART] Registering export group String...\n[XENIART] Registering export group Threading...\n[XENIART] Registering export group Usbcam...\n[XENIART] Registering export group Video...\n[XENIART] AllocFixed mprotect failed: Invalid argument
+[XENIART] SystemHeapAlloc failed! size=4 align=32 phys=1 heap=0x1052b3188 base=E0000000\n

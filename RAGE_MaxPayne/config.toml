@@ -1,0 +1,30 @@
+# Max Payne 3 Xbox 360 Recompilation Config
+# Entry Point: 0x821E1228
+# Functions: 45,248
+
+[main]
+file_path = "../RAGE/games/max_payne/default.xex"
+out_directory_path = "./ppc"
+switch_table_file_path = "./maxpayne_switch_tables.toml"
+
+skip_lr = false
+skip_msr = false
+ctr_as_local = false
+xer_as_local = false
+reserved_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
+
+restgprlr_14_address = 0x82FAB8F0
+savegprlr_14_address = 0x82FAB8A0
+restfpr_14_address = 0x82FAC73C
+savefpr_14_address = 0x82FAC6F0
+restvmx_14_address = 0x82FAE988
+savevmx_14_address = 0x82FAE6F0
+restvmx_64_address = 0x82FAEA1C
+savevmx_64_address = 0x82FAE784
+
+invalid_instructions = [
+    { data = 0x00000000, size = 4 },
+]

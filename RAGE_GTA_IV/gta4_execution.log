@@ -1,0 +1,23 @@
+[GTA4] ==============================================
+[GTA4]   GTA IV Static Recompilation (XeniaRT)
+[GTA4] ==============================================
+[GTA4] Game Path: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] Image: 0x82000000 - 0x831F0000
+[GTA4] Code:  0x82120000 - 0x82A13D5C
+[GTA4] Memory base: 0x300000000
+[GTA4] Registered 36849 recompiled functions
+[GTA4] Static dispatch: 36848 functions registered
+[GTA4] Lookup table: 36849 entries
+[GTA4] Entry point: 0x82120000
+[GTA4] ==============================================
+[GTA4]   Starting GTA IV...
+[GTA4] ==============================================
+[KERNEL] ExCreateThread(start=0x827DAE40, ctx=0x830F51C0, flags=0x1) -> handle=0x100, tid=1
+[STUB] KeSetDisableBoostThread -> 0x0 (call 1)
+[KERNEL] NtResumeThread(handle=0x100) -> starting thread 1
+[KERNEL] ExCreateThread(start=0x827DAE40, ctx=0x830F51EC, flags=0x1) -> handle=0x101, tid=2
+[STUB] KeSetDisableBoostThread -> 0x0 (call 2)
+[KERNEL] NtResumeThread(handle=0x101) -> starting thread 2
+[THREAD 1] Starting at 0x827DAE40 with context 0x830F51C0
+[THREAD 1] Exited with r3=0x0
+[THREAD 2] Starting at 0x827DAE40 with context 0x830F51EC

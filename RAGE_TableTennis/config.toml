@@ -1,0 +1,30 @@
+# Table Tennis Xbox 360 Recompilation Config
+# Entry Point: 0x8242BD20
+# Functions: 11,502
+
+[main]
+file_path = "../RAGE/games/table_tennis/default.xex"
+out_directory_path = "./ppc"
+switch_table_file_path = "./tabletennis_switch_tables.toml"
+
+skip_lr = false
+skip_msr = false
+ctr_as_local = false
+xer_as_local = false
+reserved_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
+
+restgprlr_14_address = 0x8242F8B0
+savegprlr_14_address = 0x8242F860
+restfpr_14_address = 0x8243662C
+savefpr_14_address = 0x824365E0
+restvmx_14_address = 0x825696E8
+savevmx_14_address = 0x82569450
+restvmx_64_address = 0x8256977C
+savevmx_64_address = 0x825694E4
+
+invalid_instructions = [
+    { data = 0x00000000, size = 4 },
+]

@@ -1,0 +1,69 @@
+[GTA4] === GTA IV Static Recompilation ===
+[GTA4] Image: 0x82000000 - 0x831F0000
+[GTA4] Code:  0x82120000 - 0x82A13D5C
+[RAGE] Memory: 0x300000000 (4GB)
+[RAGE] Registered 36848 functions
+[RAGE] Lookup table: 36848 entries
+[GTA4] Initializing real kernel...
+[VFS] Mounted game: -> /Users/Ozordi/Downloads/xenia/xenia/RAGE/extracted
+[VFS] Mounted d: -> /Users/Ozordi/Downloads/xenia/xenia/RAGE/extracted
+[VFS] Asset root set to: /Users/Ozordi/Downloads/xenia/xenia/RAGE/extracted
+[VFS] Mounted game: -> /Users/Ozordi/Downloads/xenia/xenia/RAGE/extracted/gta_iv
+[VFS] Mounted d: -> /Users/Ozordi/Downloads/xenia/xenia/RAGE/extracted/gta_iv
+[VFS] Mounted cache: -> /Users/Ozordi/Downloads/xenia/xenia/RAGE/extracted/gta_iv/cache
+[KERNEL] Initialized with memory base 0x300000000
+[GTA4] Entry: 0x82120000
+[GTA4] === Starting ===
+[KCALL 0] RtlEnterCriticalSection
+[KCALL 1] RtlEnterCriticalSection
+[KCALL 2] ExCreateThread
+[XTHREAD] Thread 0x105dcbf10 created SUSPENDED (count=1, addr=0x105dcbfd0)
+[XTHREAD] Thread 4096 waiting (initial_suspend=1)
+[KERNEL] ExCreateThread(start=0x827DAE40, ctx=0x830F51C0, flags=0x1) -> handle=0xF8000004
+[XTHREAD] Resume thread 4096 (prev_count=1)
+[KCALL 3] ExCreateThread
+[XTHREAD] Thread 0x105dcd0d0 created SUSPENDED (count=1, addr=0x105dcd190)
+[XTHREAD] Thread 4096 released
+[KERNEL] Thread started (running=1)
+[XTHREAD] Thread 4096 starting at 0x829B08E0 (context=0x830F51C0)
+[EXECUTE] Function 0x829B08E0
+[KCALL 4] RtlEnterCriticalSection
+[XTHREAD] Thread 4097 waiting (initial_suspend=1)
+[KERNEL] ExCreateThread(start=0x827DAE40, ctx=0x830F51EC, flags=0x1) -> handle=0xF8000008
+[XTHREAD] Resume thread 4097 (prev_count=1)
+[KCALL 5] KeTlsGetValue
+[KCALL 6] KeTlsSetValue
+[KCALL 7] RtlEnterCriticalSection
+[KCALL 8] RtlEnterCriticalSection
+[XTHREAD] Thread 4097 released
+[KERNEL] Thread started (running=2)
+[XTHREAD] Thread 4097 starting at 0x829B08E0 (context=0x830F51EC)
+[EXECUTE] Function 0x829B08E0
+[KCALL 9] RtlEnterCriticalSection
+[KERNEL] XGetVideoMode called, mode_ptr=0x700FFDE0
+[KCALL 10] KeTlsGetValue
+[KCALL 11] KeTlsSetValue
+[KCALL 12] RtlEnterCriticalSection
+[KCALL 13] RtlEnterCriticalSection
+[KERNEL] XGetVideoMode called, mode_ptr=0x700FFD50
+[KCALL 14] RtlEnterCriticalSection
+[KCALL 15] RtlEnterCriticalSection
+[KCALL 16] RtlEnterCriticalSection
+[KCALL 17] MmAllocatePhysicalMemoryEx
+[KCALL 18] RtlEnterCriticalSection
+[KCALL 19] RtlEnterCriticalSection
+[KCALL 20] MmAllocatePhysicalMemoryEx
+[KCALL 21] RtlEnterCriticalSection
+[KCALL 22] RtlEnterCriticalSection
+[KCALL 23] MmAllocatePhysicalMemoryEx
+[KCALL 24] RtlEnterCriticalSection
+[KCALL 25] RtlEnterCriticalSection
+[KCALL 26] RtlEnterCriticalSection
+[KCALL 27] RtlInitializeCriticalSection
+[KCALL 28] RtlEnterCriticalSection
+[KCALL 29] RtlEnterCriticalSection
+[KCALL 30] RtlEnterCriticalSection
+[KCALL 31] RtlEnterCriticalSection
+[KCALL 32] RtlEnterCriticalSection
+[KCALL 33] RtlEnterCriticalSection
+[KCALL 34] RtlEnterCriticalSection

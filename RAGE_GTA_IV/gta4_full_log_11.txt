@@ -1,0 +1,26 @@
+[XENIART] MapFileView mmap failed: Cannot allocate memory
+[XENIART] MapFileView mmap failed: Permission denied
+[GTA4] ==============================================
+[GTA4]   GTA IV Static Recompilation (XeniaRT)
+[GTA4]   Using Xenia's Full Kernel Implementation
+[GTA4] ==============================================
+[GTA4] Game Path: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv
+[GTA4] Image: 0x82000000 - 0x831F0000
+[GTA4] Code:  0x82120000 - 0x82A13D5C
+[GTA4] Initializing Xenia subsystems...
+[XENIART] Starting Emulator::Initialize...\n[XENIART] Creating memory...\n[XENIART] Initializing memory...\n[XENIART] MapFileView mmap failed: base=0x100000000 length=1073741824 access=3
+[XENIART] MapFileView mmap failed: base=0x200000000 length=1073741824 access=3
+[XENIART] AllocFixed base=0x400000000 len=65536 aligned=65536 prot=0
+[XENIART] AllocFixed base=0x500000000 len=16777216 aligned=16777216 prot=3
+[XENIART] AllocFixed base=0x4c0000000 len=16777216 aligned=16777216 prot=3
+[XENIART] Memory initialized OK\n[XENIART] Creating export resolver...\n[XENIART] Creating processor...\n[XENIART] Setting up processor...\n[XENIART] Processor initialized OK\n[XENIART] Creating VFS...\n[XENIART] Mounting content root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv\n[XENIART] Mounting cache root: /Users/Ozordi/Downloads/xenia/RAGE Games/extracted/gta_iv/cache\n[XENIART] initializing kernel state...\n[XENIART] Loading Xboxkrnl...\n[XENIART] XModule ctor start\n[XENIART] AllocFixed base=0x400010000 len=4096 aligned=16384 prot=3
+[XENIART] SystemHeapAlloc success: 00010000 (size=100)\n[XENIART] hmodule_ptr allocated at 00010000\n[XENIART] KernelModule ctor start for xe:\xboxkrnl.exe\n[XENIART] KernelModule allocating trampoline...
+[XENIART] AllocFixed base=0x480040000 len=65536 aligned=65536 prot=3
+[XENIART] Trampoline allocated at 80040000. Creating module...
+[XENIART] Adding trampoline module to processor...
+[XENIART] Trampoline module added.
+[XENIART] Calling OnLoad...
+[XENIART] KernelModule ctor finished.
+[XENIART] XboxkrnlModule ctor start\n[XENIART] ExportTable registered\n[XENIART] Registering export group Crypt...\n[XENIART] Registering export group Debug...\n[XENIART] Registering export group Error...\n[XENIART] Registering export group Hal...\n[XENIART] Registering export group Hid...\n[XENIART] Registering export group Io...\n[XENIART] Registering export group IoInfo...\n[XENIART] Registering export group Memory...\n[XENIART] Registering export group Misc...\n[XENIART] Registering export group Module...\n[XENIART] Registering export group Ob...\n[XENIART] Registering export group Rtl...\n[XENIART] Registering export group String...\n[XENIART] Registering export group Threading...\n[XENIART] Registering export group Usbcam...\n[XENIART] Registering export group Video...\n[XENIART] AllocFixed base=0x51fcaf000 len=4096 aligned=16384 prot=3
+[XENIART] AllocFixed mprotect failed: Invalid argument
+[XENIART] SystemHeapAlloc failed! size=4 align=32 phys=1 heap=0x1085afb68 base=E0000000\n

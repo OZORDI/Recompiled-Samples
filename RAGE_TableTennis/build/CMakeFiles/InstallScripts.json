@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/thirdparty/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/thirdparty/disasm/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/thirdparty/fmt/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/thirdparty/tomlplusplus/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/thirdparty/xxHash/cmake_unofficial/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/XenonAnalyse/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/XenonRecomp/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/XenonUtils/cmake_install.cmake",
+		"/Users/Ozordi/Downloads/XenonRecomp/RAGE_TableTennis/build/XenonTests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
